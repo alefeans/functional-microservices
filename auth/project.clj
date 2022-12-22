@@ -2,10 +2,10 @@
 
   :description "Auth service"
 
-  :url "http://example.com/FIXME"
+  :url "https://github.com/alefeans/functional-microservices"
 
-  :license {:name "EPL-2.0 OR GPL-2.0-or-later WITH Classpath-exception-2.0"
-            :url "https://www.eclipse.org/legal/epl-2.0/"}
+  :license {:name "The MIT License"
+            :url "http://opensource.org/licenses/MIT"}
 
   :plugins [[lein-ancient "1.0.0-RC3"]
             [lein-environ "1.2.0"]]
