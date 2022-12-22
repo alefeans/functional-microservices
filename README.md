@@ -16,6 +16,12 @@ These are the chosen languages until now (`F#` doesn't have an icon on [Skillico
 
 Currently, there is only one microservice under development: [Auth](/auth) (Clojure).
 
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
