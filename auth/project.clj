@@ -24,7 +24,7 @@
 
   :profiles {:uberjar {:aot :all}
              :dev
-             {:dependencies [[com.stuartsierra/component.repl "0.2.0"]]
+             {:dependencies [[com.stuartsierra/component.repl "1.0.0"]]
               :source-paths   ["dev"]
               :env {:http-port   "8080"
                     :db-type     "postgresql"
