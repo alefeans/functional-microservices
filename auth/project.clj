@@ -35,7 +35,7 @@
                     :db-password "postgrespw"}
               :repl-options   {:init-ns user}}}
   
-  :aliases {"dev" ["run" "-m" "auth.server/start-dev!"]}
+  :aliases {"dev" ["run" "-m" "auth.server/start!" :dev]}
 
   :test-paths ["test/"]
 
