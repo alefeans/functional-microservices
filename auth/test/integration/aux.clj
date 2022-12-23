@@ -12,12 +12,12 @@
 (defn service-fn [system]
   (get-in system [:server :server ::http/service-fn]))
 
-(defmacro with-test-system [[bound-var binding-expr] & body]
-  `(let [~bound-var (component/start (~binding-expr :test))]
+(defmacro with-test-system [[sut system] & body]
+  `(let [~sut (component/start (~system :test))]
      (try
        ~@body
        (finally
-         (component/stop ~bound-var)))))
+         (component/stop ~sut)))))
 
 (defn json-response-for [system verb url & options]
   (-> (apply response-for (service-fn system) verb url options)
