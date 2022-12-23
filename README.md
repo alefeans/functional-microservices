@@ -12,7 +12,7 @@ These are the chosen languages until now (`F#` doesn't have an icon on [Skillico
   </a>
 </p>
 
-## Development
+## Project Status
 
 Currently, there is only one microservice under development: [Auth](/auth) (Clojure).
 
