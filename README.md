@@ -1,20 +1,18 @@
 # Overview (TBD)
 
-🚧 This repo is the future home for a set of microservices built with different programming languages following the [Functional Programming](https://en.wikipedia.org/wiki/Functional_programming) paradigm.
+🚧 This repo is the future home for a set of microservices following the [Functional Programming](https://en.wikipedia.org/wiki/Functional_programming) paradigm.
 
 ## Stack
 
-These are the chosen languages until now (`F#` doesn't have an icon on [Skillicons](https://skillicons.dev) yet, but it's also one of the chosen ones):
-
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skills.thijs.gg/icons?i=ts,clojure,elixir,&theme=dark" />
+    <img src="https://skills.thijs.gg/icons?i=clojure,docker,postgres&theme=dark" />
   </a>
 </p>
 
 ## Project Status
 
-Currently, there is only one microservice under development: [Auth](/auth) (Clojure).
+Currently, there is only one microservice under development: [Auth](/auth).
 
 ## Contributing
 
