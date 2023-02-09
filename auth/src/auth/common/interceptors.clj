@@ -1,4 +1,4 @@
-(ns auth.diplomat.interceptors
+(ns auth.common.interceptors
   (:require [io.pedestal.http :as http]
             [io.pedestal.http.body-params :as bp]
             [io.pedestal.interceptor.helpers :as i]))
