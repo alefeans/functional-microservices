@@ -33,7 +33,6 @@ repl-port
 /logs/
 
 # Builds
-out/
 build/
 
 .clj-kondo/
