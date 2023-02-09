@@ -13,10 +13,8 @@
 
   (testing "Hello world with query params"
     (with-test-system [sut system/system]
-      (let [{:keys [status body]} (json-response-for
-                                   sut
-                                   :get
-                                   (url-for :hello-world :query-params {:name "Alefe"}))]
+      (let [url                   (url-for :hello-world :query-params {:name "Alefe"})
+            {:keys [status body]} (json-response-for sut :get url)]
         (is (= 200 status))
         (is (= "Hello Alefe" (:hello body)))))))
 
