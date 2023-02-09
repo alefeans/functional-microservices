@@ -20,11 +20,13 @@
                  [io.pedestal/pedestal.service "0.5.10"]
                  [hikari-cp "2.14.0"]
                  [org.postgresql/postgresql "42.5.1"]
-                 [com.github.seancorfield/next.jdbc "1.3.847"]]
+                 [com.github.seancorfield/next.jdbc "1.3.847"]
+                 [crypto-password "0.3.0"]]
 
   :profiles {:uberjar {:aot :all}
              :dev
-             {:dependencies [[com.stuartsierra/component.repl "1.0.0"]]
+             {:dependencies [[com.stuartsierra/component.repl "1.0.0"]
+                             [prismatic/schema-generators "0.1.5"]]
               :source-paths   ["dev"]
               :env {:http-port   "8080"
                     :db-type     "postgresql"
