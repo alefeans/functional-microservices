@@ -9,8 +9,8 @@
 
 (defn system [env]
   (component/system-map
-   :config    (cfg/new-config env)
+   :config   (cfg/new-config env)
    :routes   (r/new-routes d-http/routes)
-   :database (component/using (db/new-database) [:config]) 
+   :database (component/using (db/new-database) [:config])
    :service  (component/using (svc/new-service) [:config :routes :database])
    :server   (component/using (srv/new-server) [:config :service])))
